@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmssName": {
+            "value": "GEN-UNIQUE"
+        },
+        "adminUsername": {
+            "value": "changeme"
+        },
+        "capacity": {
+            "value": 2
+        },
+        "adminPassword": {
+            "value": "GEN-PASSWORD"
+        },
+        "sourceImageVhdUri":{
+            "value":"changeme"
+        },
+        "destinationFolder":{
+            "value": "changeme"
+        },
+        "serviceName":{
+            "value": "changeme"
+        },
+        "customScriptName":{
+            "value": "changeme"
+        },
+        "appPackage":{
+            "value": "changeme"
+        },
+        "existingSubnetResourceId": {
+            "value": "/subscriptions/e0740555-d98d-401d-b6bb-7564878373b7/resourceGroups/RG_NETWORK/providers/Microsoft.Network/virtualNetworks/VNET_MOVIDA/subnets/Frontend"
+        }
+    }
+}
